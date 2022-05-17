@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter basename="/react-simple" >
+      <BrowserRouter >
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
         <Background  />
