@@ -1,0 +1,31 @@
+.ev {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ev .evTitle {
+  font-family: cursive;
+  font-size: 60px;
+  width: 80%;
+  text-align: center;
+  background-color: black;
+  color: #d8bc6c;
+}
+
+.sk {
+  width: 80%;
+}
+@media only screen and (max-width: 650px) {
+  .ev .evTitle {
+    font-size: 40px;
+    width: 100%;
+  }
+  .sk {
+    width: 100%;
+  }
+}
+

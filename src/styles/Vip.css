@@ -1,0 +1,26 @@
+
+.vipcontainer {
+  width: 65%;
+  margin: auto;
+}
+
+.vipdes{
+  margin-top: 5%;
+  position:absolute;
+  z-index: 1;
+  background-color: rgb(225, 225, 225,0.9);
+  height: auto;
+  color: #07090a;
+}
+
+@media only screen and (max-width: 800px) {
+  .vipcontainer {
+    width: 95%;
+  }
+  .vbg {
+    height: 200px;
+  }
+  .vipdes {
+    position: relative;
+  }
+}

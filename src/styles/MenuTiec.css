@@ -1,0 +1,11 @@
+
+.tieccontainer {
+  width: 65%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .tieccontainer {
+    width: 95%
+  }
+}

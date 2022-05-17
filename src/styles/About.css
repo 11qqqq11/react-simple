@@ -1,0 +1,38 @@
+.about {
+/*   margin-top: 100px; */
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.aboutBottom {
+  margin: auto;
+  color: #d8bc6c;
+  width: 80%;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3em;
+}
+
+.aboutBottom p {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+}
+@media only screen and (max-width: 650px) {
+
+  .about .aboutBottom h1 {
+  font-size: 40px;
+  }
+  .about .aboutBottom p {
+    font-size: 15px;
+  }
+}

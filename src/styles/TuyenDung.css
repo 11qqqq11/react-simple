@@ -1,0 +1,58 @@
+.about {
+/*   margin-top: 100px; */
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+table {
+  margin: auto;
+  width: 70vw;
+  border-spacing: 0;
+}
+.table thead {
+  background-color: #ead1a8;
+  height: 7vh;
+  font-size: 25px;
+}
+.table .tuyen {
+  width: 60vw;
+}
+.table .soluong {
+  width: 10vw;
+}
+
+.table td {
+  border: 1px solid black;
+  height: 7vh;
+  font-size: 25px;
+}
+
+.tdBottom {
+  margin: auto;
+  color: black;
+  width: 80%;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.aboutBottom p {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+}
+@media only screen and (max-width: 650px) {
+
+  .about .aboutBottom h1 {
+  font-size: 40px;
+  }
+  .about .aboutBottom p {
+    font-size: 15px;
+  }
+}
