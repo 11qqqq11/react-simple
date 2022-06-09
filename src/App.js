@@ -8,11 +8,12 @@ import Event from "./pages/Event";
 import Contact from "./pages/Contact";
 import Vip from "./pages/Vip";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MenuDetail from "./pages/MenuDetail";
+import MenuAlacarte from "./pages/MenuAlacarte";
 import Background from "./components/Background";
 import MenuTiec from "./pages/MenuTiec";
 import MenuDoan from "./pages/MenuDoan";
 import TuyenDung from "./pages/Tuyendung";
+
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +30,7 @@ function App() {
         <Background  />
         <Routes>
           <Route path="/" element={<Home /> } />
-          <Route path="/menu" element={<MenuDetail />} />
+          <Route path="/menu" element={<MenuAlacarte />} />
           <Route path="/menutiec" element={<MenuTiec />} />
           <Route path="/menudoan" element={<MenuDoan />} />
           <Route path="/event" element={<Event />} />

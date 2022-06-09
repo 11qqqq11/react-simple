@@ -1,5 +1,5 @@
 .ment {
-  width: fit-content;
+  width: 70vw;
   text-align: center;
   background-color: black;
 }
@@ -9,7 +9,7 @@
   margin: 0 10px;
 }
 .button-5 {
-  align-items: center;
+  align-content: center;
   background-clip: padding-box;
   background-color: black; 
   border: 1px solid transparent;
@@ -25,7 +25,7 @@
   justify-content: center;
   line-height: 1.25;
   margin: 0;
-  min-height: 3rem;
+  height: 50px;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
 /*   position: relative; */
   text-decoration: none;
@@ -36,14 +36,10 @@
   vertical-align: baseline;
 }
 
-.button-5:hover,
-.button-5:focus {
+.t {
   background-color: #d8bc6c;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   color: White;
-}
-
-.button-5:hover {
   transform: translateY(-1px);
 }
 
@@ -53,7 +49,7 @@
   transform: translateY(0);
 }
 .md {
-  width: 50%;
+  width: 70vw;
 }
 
 @media only screen and (max-width: 800px) {

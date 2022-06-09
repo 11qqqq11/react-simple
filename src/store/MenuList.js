@@ -20,92 +20,74 @@ import Doi from "../images/doi.jpg"
 export const MenuList = [
   {
     name: "Món Khai Vị",
-    image: KhaiVi,
-    key: 'khaivi'
+    image: KhaiVi
   },
   {
     name: "Món Gỏi",
-    image: MonGoi,
-    key: 'goi'
+    image: MonGoi
   },
   {
     name: "Rau củ Quả",
-    image: RauCu,
-    key: 'raucu'
+    image: RauCu
   },
   {
     name: "Các Loại Khô",
-    image: MonKho,
-    key: 'kho'
+    image: MonKho
   },
   {
     name: "Hàu-Sò Huyết-Ốc",
-    image: Hau,
-    key: 'hau'
+    image: Hau
   },
   {
     name: "Món Đặc Sản",
-    image: DS,
-    key: 'dacsan'
+    image: DS
   },
   {
     name: "Mực-Tôm-Cua",
-    image: Muc,
-    key: 'muc'
+    image: Muc
   },
   {
     name: "Cá Mú, Cá lăng, Cá Chình",
-    image: CaMu,
-    key: 'mu'
+    image: CaMu
   },
   {
     name: "Cá Bóp, Cá Bông Lau, Cá Kèo",
-    image: BongLau,
-    key: 'bop'
+    image: BongLau
   },
   {
     name: "Món Heo - Dê",
-    image: De,
-    key: 'de'
+    image: De
   },
   {
     name: "Món Bò",
-    image: Bo,
-    key: 'bo'
+    image: Bo
   },
   {
     name: "Món Gà - Vịt",
-    image: Ga,
-    key: 'ga'
+    image: Ga
   },
   {
     name: "Món Thủy Sản Đồng",
-    image: TSD,
-    key: 'tsd'
+    image: TSD
   },
   {
     name: "Món Cơm - Mì",
-    image: Mi,
-    key: 'mi'
+    image: Mi
   },
   {
     name: "Món Lẩu",
-    image: Lau,
-    key: "lau"
+    image: Lau
   },
   {
     name: "Hải Sản Tại Hồ",
-    image: Hsh,
-    key: 'hsth'
+    image: Hsh
   },
   {
     name: "Món Dồi",
-    image: Doi,
-    key: 'doi'
+    image: Doi
   },
   {
     name: "Đồ Uống",
-    image: Du,
-    key: 'douong'
+    image: Du
   }
 ];

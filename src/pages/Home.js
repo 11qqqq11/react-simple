@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import About from "./About";
-import Menu from "./Menu";
+import Menu from "../components/Menu";
 import Event from "./Event";
 
 function Home() {
