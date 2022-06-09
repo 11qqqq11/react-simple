@@ -13,7 +13,7 @@ export default function Menu() {
         {MenuList.map((menuItem, key) => {
           const init = thucDon[key].image;
           return (
-            <Link to="/menu/" state={{ from: init }}>
+            <Link to="/menu" state={{ from: init }}>
               <MenuItem
             
             key={key}
